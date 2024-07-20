@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\01_출력">
+      <UniqueIdentifier>{4a21c24b-ba1f-4fb4-a242-2dd8b497903b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02_스코프연산자">
+      <UniqueIdentifier>{ed9e1e59-4638-43fe-9e9e-e178677f2b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03_타입추론">
+      <UniqueIdentifier>{2166daeb-84b6-4ec4-9101-b512acdca4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04_함수">
+      <UniqueIdentifier>{f8af9ede-0c30-4b0e-9325-935001ab45df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_동적할당">
+      <UniqueIdentifier>{f5026835-0cc4-4095-a0d0-955e174c3ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06_참조자">
+      <UniqueIdentifier>{346c2fdb-6183-4733-a498-7d04827d8fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\07_String">
+      <UniqueIdentifier>{920bcf74-dc41-43c3-aa7a-6cca812f75cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="01_출력.cpp">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="02_출력.cpp">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="03_출력.cpp">
+      <Filter>소스 파일\01_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="01_네임스페이스.cpp">
+      <Filter>소스 파일\02_스코프연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_전역변수.cpp">
+      <Filter>소스 파일\02_스코프연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="01_타입추론.cpp">
+      <Filter>소스 파일\03_타입추론</Filter>
+    </ClCompile>
+    <ClCompile Include="01_함수중복정의.cpp">
+      <Filter>소스 파일\04_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="02_선택적매개변수.cpp">
+      <Filter>소스 파일\04_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="03_인라인함수.cpp">
+      <Filter>소스 파일\04_함수</Filter>
+    </ClCompile>
+    <ClCompile Include="01_동적할당.cpp">
+      <Filter>소스 파일\05_동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="02_동적할당.cpp">
+      <Filter>소스 파일\05_동적할당</Filter>
+    </ClCompile>
+    <ClCompile Include="01_참조자.cpp">
+      <Filter>소스 파일\06_참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="02_참조자매개변수.cpp">
+      <Filter>소스 파일\06_참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="03_참조자반환형식.cpp">
+      <Filter>소스 파일\06_참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="04_참조자반환형식.cpp">
+      <Filter>소스 파일\06_참조자</Filter>
+    </ClCompile>
+    <ClCompile Include="01_string.cpp">
+      <Filter>소스 파일\07_String</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
